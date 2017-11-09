@@ -1,0 +1,40 @@
+{
+  "name": "jenkins-build-status-notifier",
+  "version": "0.0.7",
+  "description": "Query jenkins jobs to get their statuses",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "node ./test.js",
+    "build": "babel ./src --out-dir ./lib"
+  },
+  "dependencies": {
+    "jenkins-api": "git+https://github.com/theandrewlane/node-jenkins-api.git",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theandrewlane/jenkins-build-status-notifier.git"
+  },
+  "keywords": [
+    "jenkinsapi",
+    "git",
+    "jenkins"
+  ],
+  "engine": {
+    "node": ">=7.2"
+  },
+  "author": "Andrew Lane <theeandrewlane@gmail.com>",
+  "contributors": [
+    "Andrew Lane <theeandrewlane@gmail.com> (https://github.com/theandrewlane)"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theandrewlane/jenkins-build-status-notifier/issues"
+  },
+  "homepage": "https://github.com/theandrewlane/jenkins-build-status-notifier#readme"
+}
